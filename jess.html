@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Feed | Insta Test</title>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <link href="css/style.css" rel="stylesheet">
+        <style media="screen">
+          .buy{width: 100%; height: 100%; position: absolute;; top: 0; left: 0; z-index: 1000;}
+          .buy a{width: 30%; height:0px; background-color:rgba(34,34,34,0.6); opacity: 1; display: flex;  margin: 0;
+            position: absolute;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            top: 50%;
+            left: 35%;
+            -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+            color:white;
+            font-weight: bold;
+            border-radius: 60px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .navigation{z-index: 2000;}
+
+        </style>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    </head>
+    <body>
+        <nav class="navigation">
+            <a href="feed.html">
+                <img
+                    src="images/navLogo.png"
+                    alt="logo"
+                    title="logo"
+                    class="navigation__logo"
+                />
+            </a>
+            <!-- <div class="navigation__search-container">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="navigation__icons">
+                <a href="explore.html" class="navigation__link">
+                    <i class="fa fa-compass"></i>
+                </a>
+                <a href="#" class="navigation__link">
+                    <i class="fa fa-heart-o"></i>
+                </a>
+                <a href="profile.html" class="navigation__link">
+                    <i class="fa fa-user-o"></i>
+                </a>
+            </div> -->
+        </nav>
+
+
+<!-- jessica -->
+        <main class="feed">
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img
+                            class="photo__avatar"
+                            src="images/jess.jpg"
+                        />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">jessriveras</span>
+                        <span class="photo__location">Jessica Rivera</span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+                    <img
+                        class="photo__file"
+                        src="images/2ndhand.jpg"
+                    />
+                    <div class="buy" id="bjess">
+                      <a href="fin.html">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="photo__info">
+                    <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes">5 likes</span>
+                    <ul class="photo__comments">
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">jessrivera</span>vendo camiseta blanca perfecta!
+                        </li>
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">lynn</span>que padre!
+                        </li>
+                    </ul>
+                    <span class="photo__time-ago">5 hours ago</span>
+                    <div class="photo__add-comment-container">
+                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+            <!-- influencer 2 -->
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img
+                            class="photo__avatar"
+                            src="images/andy.jpg"
+                        />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">andybenavidesm</span>
+                        <span class="photo__location">Andy Benavides</span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+                    <img
+                        class="photo__file"
+                        src="images/3.jpg"
+                    />
+                    <div class="buy" id="binflu">
+                      <a href="#buyme">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="photo__info">
+                    <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes">5 likes</span>
+                    <ul class="photo__comments">
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">mika8</span>Hola!
+                        </li>
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">shinlove33</span>que bonito oye
+                        </li>
+                    </ul>
+                    <span class="photo__time-ago">5 hours ago</span>
+                    <div class="photo__add-comment-container">
+                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- zara -->
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img
+                            class="photo__avatar"
+                            src="images/zara.jpg"
+                        />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">zara</span>
+                        <span class="photo__location">ZARA Official</span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+                    <img
+                        class="photo__file"
+                        src="images/2.jpg"
+                    />
+                    <div class="buy" id="bzara">
+                      <a href="#buyme">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="photo__info">
+                    <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes">5 likes</span>
+                    <ul class="photo__comments">
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">mika8</span>Hola!
+                        </li>
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">shinlove33</span>que bonito oye
+                        </li>
+                    </ul>
+                    <span class="photo__time-ago">5 hours ago</span>
+                    <div class="photo__add-comment-container">
+                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+
+            <!-- zero waste -->
+
+            <section class="photo">
+                <header class="photo__header">
+                    <div class="photo__header-column">
+                        <img
+                            class="photo__avatar"
+                            src="images/zwd.jpg"
+                        />
+                    </div>
+                    <div class="photo__header-column">
+                        <span class="photo__username">zerowastedaniel</span>
+                        <span class="photo__location">zero waste daniel</span>
+                    </div>
+                </header>
+                <div class="photo__file-container">
+                    <img
+                        class="photo__file"
+                        src="images/1.jpg"
+                    />
+                    <div class="buy" id="bzwd">
+                      <a href="#buyme">Comprar Ahora</a>
+                    </div>
+                </div>
+                <div class="photo__info">
+                    <div class="photo__icons">
+                        <span class="photo__icon">
+                            <i class="fa fa-heart-o heart fa-lg"></i>
+                        </span>
+                        <span class="photo__icon">
+                            <i class="fa fa-comment-o fa-lg"></i>
+                        </span>
+                    </div>
+                    <span class="photo__likes">5 likes</span>
+                    <ul class="photo__comments">
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">mimi22</span>cool!
+                        </li>
+                        <li class="photo__comment">
+                            <span class="photo__comment-author">zorazora3</span>I want it!
+                        </li>
+                    </ul>
+                    <span class="photo__time-ago">5 hours ago</span>
+                    <div class="photo__add-comment-container">
+                        <textarea placeholder="Add a comment..." class="photo__add-comment"></textarea>
+                        <i class="fa fa-ellipsis-h"></i>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <footer class="footer">
+            <nav class="footer__nav">
+                <ul class="footer__list">
+                    <li class="footer__list-item"><a href="#" class="footer__link">about us</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">support</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">blog</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">press</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">api</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">jobs</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">privacy</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">terms</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">directory</a></li>
+                    <li class="footer__list-item"><a href="#" class="footer__link">language</a></li>
+                </ul>
+            </nav>
+            <span class="footer__copyright">© 2020 gesignlab</span>
+        </footer>
+        <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+        <script src="js/app.js"></script>
+
+
+        <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.1/firebase-database.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyBa2kktheNgMtZS1EJbNDeWwY7CeJWsa40",
+    authDomain: "encu-c339f.firebaseapp.com",
+    databaseURL: "https://encu-c339f.firebaseio.com",
+    projectId: "encu-c339f",
+    storageBucket: "encu-c339f.appspot.com",
+    messagingSenderId: "896853416091",
+    appId: "1:896853416091:web:9d7b4048dd78222de20e3e",
+    measurementId: "G-CFTE6VPN7N"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  // Get the Database service for the default app
+  var defaultDatabase = firebase.database();
+
+
+</script>
+
+        <script type="text/javascript">
+        $(".feed").html($(".feed .photo").sort(function(){
+  return Math.random()-0.5;
+}));
+
+
+
+
+  // aqui empieza firebase
+  function writeNewPost(author, click) {
+  // A post entry.
+  var postData = {
+    author: author,
+    click: click,
+  };
+
+  // Get a key for a new Post.
+  var newPostKey = firebase.database().ref().child('participantes').push().key;
+
+  // Write the new post's data simultaneously in the posts list and the user's post list.
+  var updates = {};
+  updates['/participantes/' + newPostKey] = postData;
+  return firebase.database().ref().update(updates);
+  }
+
+        $( "#bjess" ).click(function() {
+
+          writeNewPost("jessica","jessica");
+          window.location.href = "fin.html";
+
+
+        });
+
+        $( "#banasofi" ).click(function() {
+          writeNewPost("anasofi","anasofi");
+          window.location.href = "fin.html";
+          window.location.href = "fin.html";
+        });
+
+        $( "#bandy" ).click(function() {
+          writeNewPost("andy","andy");
+          window.location.href = "fin.html";
+        });
+
+        $( "#binflu" ).click(function() {
+          writeNewPost("jessica","influencer");
+          window.location.href = "fin.html";
+        });
+
+        $( "#bzwd" ).click(function() {
+          writeNewPost("jessica","zwd");
+          window.location.href = "fin.html";
+        });
+
+        $( "#bzara" ).click(function() {
+          writeNewPost("jessica","zara");
+          window.location.href = "fin.html";
+        });
+
+
+
+        </script>
+
+    </body>
+</html>
