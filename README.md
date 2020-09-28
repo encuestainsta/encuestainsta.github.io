@@ -1,3 +1,3 @@
-# Instaclone
+# Encuestas en ambiente simulado de instagram
 
-Check out the demo: http://serranoarevalo.github.io/instaclone
+Herramienta para la aplicacion de encuestas en un entorno simulado de instagram
