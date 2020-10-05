@@ -207,7 +207,7 @@ demo_button.onclick = function(e) {
 
         if (!point.fixed && location.distance < size.height / 4) {
             var y = view.center.y + yvalue;
-            consolelog(y);
+            console.log(y);
             point.y += (y - point.y) / 6;
             var previous = segment.previous && segment.previous.point;
             var next = segment.next && segment.next.point;
