@@ -67,7 +67,7 @@ function handleOrientation(event) {
   updateFieldIfNotNull('Orientation_a', event.alpha);
   updateFieldIfNotNull('Orientation_b', event.beta);
   updateFieldIfNotNull('Orientation_g', event.gamma);
-  yvalue = event.alpha;
+  // yvalue = event.alpha;
 
 
   incrementEventCount();
@@ -98,6 +98,7 @@ function handleMotion(event) {
   updateFieldIfNotNull('Gyroscope_z', event.rotationRate.alpha);
   updateFieldIfNotNull('Gyroscope_x', event.rotationRate.beta);
   updateFieldIfNotNull('Gyroscope_y', event.rotationRate.gamma);
+  yvalue = event.rotationRate.gamma;
   incrementEventCount();
 }
 
@@ -206,6 +207,7 @@ demo_button.onclick = function(e) {
 
         if (!point.fixed && location.distance < size.height / 4) {
             var y = view.center.y + yvalue;
+            consolelog(y);
             point.y += (y - point.y) / 6;
             var previous = segment.previous && segment.previous.point;
             var next = segment.next && segment.next.point;
