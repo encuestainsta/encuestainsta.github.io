@@ -90,7 +90,7 @@
                     class="photo__file"
                     src="images/2ndhand.jpg"
                 /> -->
-                <video id="vid" src="images\interior1.webm" loop autoplay>
+                <video id="vid" src="images\exterior2.webm" loop autoplay>
 
                 </video>
                 <div class="buy" id="bjess">
@@ -270,7 +270,7 @@
   firebase.initializeApp(firebaseConfig);
   firebase.analytics();
   var ref = firebase.database().ref('caras');
-  var usersRef = ref.child('usersinterior1');
+  var usersRef = ref.child('usersexterior2');
   var userRef = usersRef.push();
 
 </script>
@@ -299,7 +299,7 @@
 
     $( "#like" ).click(function() {
 
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSddW3_pQTVbZ-TquVYu-RDiz0wBjkzxDVVn-KIefDxS48IOBw/viewform?vc=0&c=0&w=1&flr=0&gxids=7628";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeb76YH5J_wIbosjSGG_ZOEnzHJ7ly8O_h03nxBrk5JyRGYKQ/viewform?vc=0&c=0&w=1&flr=0&gxids=7628";
       var obj = {Respuesta: "Like"};
       userRef.push(obj)
 
@@ -307,7 +307,7 @@
 
     $( "#comment" ).click(function() {
 
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSddW3_pQTVbZ-TquVYu-RDiz0wBjkzxDVVn-KIefDxS48IOBw/viewform?vc=0&c=0&w=1&flr=0&gxids=7628";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeb76YH5J_wIbosjSGG_ZOEnzHJ7ly8O_h03nxBrk5JyRGYKQ/viewform?vc=0&c=0&w=1&flr=0&gxids=7628";
       var obj = {Respuesta: "comment"};
       userRef.push(obj)
 
@@ -315,7 +315,7 @@
 
     $( "#share" ).click(function() {
 
-      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSddW3_pQTVbZ-TquVYu-RDiz0wBjkzxDVVn-KIefDxS48IOBw/viewform?vc=0&c=0&w=1&flr=0&gxids=7628";
+      window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSeb76YH5J_wIbosjSGG_ZOEnzHJ7ly8O_h03nxBrk5JyRGYKQ/viewform?vc=0&c=0&w=1&flr=0&gxids=7628";
       var obj = {Respuesta: "share"};
       userRef.push(obj)
 
